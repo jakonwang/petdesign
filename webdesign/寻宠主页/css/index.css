@@ -1,0 +1,155 @@
+@charset "utf-8";
+html{
+	font-size:62.5%;
+}
+body,h1,h2,h3,h4,h5,h6,img,header{margin:0;padding:0;}
+a{
+	text-decoration:none;
+	color:#666;
+	outline:none;
+	border:0;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-moz-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-ms-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-o-tap-highlight-color:rgba(0, 0, 0, 0);  
+	tap-highlight-color:rgba(0, 0, 0, 0); 
+}
+a:hover,a:active,a:focus{ outline:none;border:0;}
+img{border:0;width:100%;}
+/* start header */
+#header{
+	width:100%;
+	height:3.85rem;
+	line-height:3.85rem;
+	font-size:2.4rem;
+	text-align:center;
+	background:#2ecc71;
+	color:#FFF;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+}
+/* end header */
+/* start main */
+#clue-adopt-retrieve{
+	margin-top:4.2rem;
+	margin-bottom:4.7rem;
+	height:auto;
+}
+#clue-adopt-retrieve a{
+	position:relative;
+	display:block;
+	width:83%;
+	height:auto;
+	text-align:center;
+	margin:1rem auto 0;
+	color:#FFF;
+	font-weight:bold;
+	outline:none;
+	border:0;
+	line-height:0;
+}
+#clue-adopt-retrieve img{
+	width:100%;
+	height:auto;
+	border-radius:2rem;
+}
+#clue-adopt-retrieve a>div{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-4rem;
+	margin-top:-3rem;
+}
+#clue-adopt-retrieve h2{
+	font-size:2.4rem;
+	line-height:3rem;
+	letter-spacing:0.2rem;
+}
+#clue-adopt-retrieve #clue div{
+	margin-left:-6.5rem;
+	margin-top:-3rem;
+}
+#clue-adopt-retrieve h3{
+	font-size:1.5rem;
+	line-height:3rem;
+}
+/* end main */
+/* start footer */
+#footer{
+	width:100%;
+	height:4.7rem;
+	background:#FFF;
+	border-top:1px solid #DDD;
+	position:fixed;
+	bottom:0;
+	left:0;
+	overflow:hidden;
+	z-index:9999;
+}
+#footer a{
+	width:20%;
+	height:4.7rem;
+	display:block;
+	float:left;
+	text-align:center;
+}
+#footer span{
+	width:2.5rem;
+	height:2.5rem;
+	display:block;
+	text-align:center;
+	margin:0.3rem auto 0;
+}
+#footer p{
+	color:#666;
+	font-size:1.2rem;
+	margin-top:0.5rem 0 0 0;
+	padding:0;
+	line-height:0;
+}
+#footer span.hover+p{
+	color:#2ecc71;
+}
+#footer .home span,#footer .community span,#footer .service span,#footer .message span,#footer .my span{
+	background:url(../images/xunchongIcon.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .home span.hover{
+	background:url(../images/xunchongIconHover.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .community span{
+	background:url(../images/communityIcon.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .community span.hover{
+	background:url(../images/communityIconHover.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .service span{
+	background:url(../images/serviceIcon.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .service span.hover{
+	background:url(../images/serviceIconHover.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .message span{
+	background:url(../images/messageIcon.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .message span.hover{
+	background:url(../images/messageIconHover.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .my span{
+	background:url(../images/myIcon.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .my span.hover{
+	background:url(../images/myIconHover.png) no-repeat center center;
+	background-size:2.5rem;
+}
+/* end footer */
