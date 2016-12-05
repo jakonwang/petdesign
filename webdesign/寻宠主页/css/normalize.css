@@ -17,6 +17,7 @@ html {
 
 body {
   margin: 0;
+  -webkit-font-smoothing: antialiased;/*字体抗锯齿*/
 }
 
 /* HTML5 display definitions
@@ -425,7 +426,7 @@ textarea {
 html{
   font-size:62.5%;
 }
-body,h1,h2,h3,h4,h5,h6,img,header{margin:0;padding:0;}
+body,h1,h2,h3,h4,h5,h6,img,header,ul{margin:0;padding:0;}
 a{
   text-decoration:none;
   color:#666;
@@ -437,5 +438,6 @@ a{
   -o-tap-highlight-color:rgba(0, 0, 0, 0);  
   tap-highlight-color:rgba(0, 0, 0, 0); 
 }
+ul{list-style:none;}
 a:hover,a:active,a:focus{ outline:none;border:0;}
 img{border:0;width:100%;}

@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* start clue-adopt-retrieve */
+#clue-adopt-retrieve{
+	margin-top:4.2rem;
+	margin-bottom:4.8rem;
+	height:auto;
+}
+#clue-adopt-retrieve a{
+	position:relative;
+	display:block;
+	width:83%;
+	height:auto;
+	text-align:center;
+	margin:1rem auto 0;
+	color:#FFF;
+	font-weight:bold;
+	outline:none;
+	border:0;
+	line-height:0;
+}
+#clue-adopt-retrieve img{
+	width:100%;
+	height:auto;
+	border-radius:2rem;
+}
+#clue-adopt-retrieve a>div{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-4rem;
+	margin-top:-3rem;
+}
+#clue-adopt-retrieve h2{
+	font-size:2.4rem;
+	line-height:3rem;
+	letter-spacing:0.2rem;
+}
+#clue-adopt-retrieve #clue div{
+	margin-left:-6.5rem;
+	margin-top:-3rem;
+}
+#clue-adopt-retrieve h3{
+	font-size:1.5rem;
+	line-height:3rem;
+}
+/* end clue-adopt-retrieve */
+/* start wandering-clues,retrieve,adopt */
+#wandering-clues,#retrieve,#adopt{
+	margin-top:4.2rem;
+	margin-bottom:5rem;
+}
+#wandering-clues ul,#retrieve ul{
+	margin:0 auto;
+}
+#wandering-clues ul li.item,#retrieve ul li.item{
+	padding:0 1.1rem;
+	margin:1rem 0;
+	background:#FFF;
+	border-bottom:1px solid #CCC;
+}
+#wandering-clues .item .thumb,#retrieve .item .thumb{
+	width:4.7rem;
+	height:4.7rem;
+	display:inline-block;
+	float:left;
+}
+#wandering-clues .item .thumb img,#retrieve .item .thumb img{
+	border-radius:4.7rem;
+	text-align:center;
+}
+#wandering-clues .item .title,#retrieve .item .title{
+	display:inline-block;
+	padding:0 0 0 1.2rem;
+	line-height:2.6rem;
+}
+#wandering-clues .item .title h2,#retrieve .item .title h2{
+	font-size:1.6rem;
+	color:#3e3e3e;
+	height:3rem;
+	line-height:3rem;
+	position:relative;
+}
+#retrieve .item .title h2 span.type{
+	width:5.25rem;
+	height:1.8rem;
+	line-height:1.8rem;
+	display:block;
+	font-size:1.2rem;
+	color:#eb6100;
+	text-align:center;
+	letter-spacing:1px;
+	background:url(../images/for_pet/type.jpg) left center no-repeat;
+	background-size:5.25rem 1.8rem;
+	position:absolute;
+	top:0.7rem;
+	left:7rem;
+}
+#wandering-clues .item .title p,#retrieve .item .title p{
+	font-size:1.3rem;
+	height:1.3rem;
+	line-height:1.3rem;
+	color:#adaead;
+	margin:0;
+	padding-left:1.5rem;
+	background:url(../images/for_pet/time.png) left center no-repeat;
+	background-size:1.3rem;
+}
+#wandering-clues .item .description,#retrieve .item .description{
+	clear:both;
+	height:auto;
+	font-size:1.4rem;
+	line-height:2rem;
+	padding:0;
+	margin:0.8rem auto;
+}
+#wandering-clues .item .pic,#retrieve .item .pic{
+	width:100%;
+	height:auto;
+	margin:;
+	clear:both;
+}
+#wandering-clues .item .pic img,#retrieve .item .pic img{
+	float:left;
+	width:28%;
+	height:28%;
+	margin:0 0.8rem 0 0;
+	padding:0.2rem;
+	border-radius:0.5rem;
+}
+#wandering-clues .item .spread,#retrieve .item .spread{
+	width:100%;
+	height:3.8rem;
+	background:url(../images/for_pet/spread.png) left 0.5rem no-repeat;
+	background-size:2.2rem;
+	text-indent:2.6rem;
+	line-height:3.8rem;
+	clear:both;
+	font-size:1.4rem;
+	color:#1d953f;
+}
+#adopt figure{
+	width:97%;
+	height:16rem;
+	margin:0.5rem auto;
+	padding:0;
+	overflow:hidden;
+	background:url(../images/for_pet/adoptlibg.jpg) no-repeat left top;
+	background-size:100% 16rem;
+	position:relative;
+}
+#adopt figure img{
+	margin:2.8rem 0rem 0 1rem;
+	float:left;
+	width:12rem;
+	height:12rem;
+}
+#adopt .about-pet{
+	width:49%;
+	height:100%;
+	float:left;
+	overflow:hidden;
+}
+#adopt figure .pet-name{
+	margin:2.8rem 0 0 10px;
+	font-size:1.4rem;
+}
+#adopt figure p{
+	padding:0;
+	margin:0.5rem 0 0 10px;
+	font-size:1.2rem;
+	line-height:1.7rem;
+	text-indent:2rem;
+}
+#adopt figure .age{
+	background:url(../images/for_pet/age.jpg) no-repeat left center;
+	background-size:1.5rem;
+}
+#adopt figure .pet-type{
+	background:url(../images/for_pet/category.jpg) no-repeat left center;
+	background-size:1.5rem;
+}
+#adopt figure .request{
+	background:url(../images/for_pet/request.jpg) no-repeat left center;
+	background-size:1.5rem;
+	width:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis; 
+}
+#adopt figure .location{
+	background:url(../images/for_pet/location.jpg) no-repeat left center;
+	background-size:1.4rem 1.7rem;
+}
+#adopt figure .pubdate{
+	background:url(../images/for_pet/pubdate.jpg) no-repeat left center;
+	background-size:1.5rem;
+}
+#adopt figure .male,#adopt figure .female{
+	display:block;
+	width:1.5rem;
+	height:1.5rem;
+	position:absolute;
+	top:1.5rem;
+	right:1rem;
+}
+#adopt figure .male{
+	background:url(../images/for_pet/male.png) no-repeat left center;
+	background-size:1.5rem;
+}
+#adopt figure .female{
+	background:url(../images/for_pet/female.png) no-repeat left center;
+	background-size:1.5rem;
+}
+/* end wandering-clues,retrieve,adopt */
+/* start release */
+#release{
+	width:4.1rem;
+	height:4.1rem;
+	position:fixed;
+	left:50%;
+	bottom:5rem;
+	margin-left:-2.05rem;
+	background:url(../images/for_pet/release.png) no-repeat left center;
+	background-size:100%;
+	border-radius:4.1rem;
+	box-shadow:0 0 1rem rgba(0,0,0,.4);
+}
+/* end release */

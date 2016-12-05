@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>寻宠网--个人资料</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,height=device-height"/>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!-- 反运营商劫持 S -->
+	<style type="text/css">
+    html {
+        display:none;
+    }
+    </style>
+    <script>
+    if( self == top ) {
+        document.documentElement.style.display = 'block' ;
+    } else {
+        top.location = self.location ;
+    }
+    /*反运营商劫持 E*/
+    /*图片预加载*/
+    function loadImage(url, callback) {     
+    var img = new Image(); //创建一个Image对象，实现图片的预下载     
+    img.onload = function(){
+        img.onload = null;
+        callback(img);
+    }
+    	img.src = url; 
+	}
+    </script>
+	<!--normalize.css for reset stylesheet-->
+	<link rel="stylesheet" href="../css/normalize.css">
+	<!--common.css-->
+	<link rel="stylesheet" href="../css/common.css">
+	<!--my.css-->
+	<link rel="stylesheet" href="../css/my.css">
+</head>
+<body id='my-setting'>
+	<!-- S header -->
+	<header id='header'>我的萌宠
+	<div id="return" onclick='javascript:history.back();'></div>
+	<div id="add-pet">添加</div>
+	</header>
+	<!-- E header -->
+	<!-- S my-pet-list -->
+	<main id='my-pet-list'>
+		<ul>
+			<li><a href="###">
+				<img src="../images/thumb.jpg" alt="" class='my-pet-thumb'>
+				<div class="about-pet">
+					<span class='my-pet-name'>Lucky</span>
+					<span class='my-pet-male'></span>
+					<span class='my-pet-type'>泰迪犬</span>
+					<p class='my-pet-age'>12岁</p>
+				</div>
+			</a></li>
+			<li><a href="###">
+				<img src="../images/thumb.jpg" alt="" class='my-pet-thumb'>
+				<div class="about-pet">
+					<span class='my-pet-name'>小胖</span>
+					<span class='my-pet-male'></span>
+					<span class='my-pet-type'>泰迪犬</span>
+					<p class='my-pet-age'>1岁</p>
+				</div>
+			</a></li>
+			<li><a href="###">
+				<img src="../images/thumb.jpg" alt="" class='my-pet-thumb'>
+				<div class="about-pet">
+					<span class='my-pet-name'>Andy</span>
+					<span class='my-pet-female'></span>
+					<span class='my-pet-type'>比熊</span>
+					<p class='my-pet-age'>0岁</p>
+				</div>
+			</a></li>
+			<li><a href="###">
+				<img src="../images/thumb.jpg" alt="" class='my-pet-thumb'>
+				<div class="about-pet">
+					<span class='my-pet-name'>Hello</span>
+					<span class='my-pet-female'></span>
+					<span class='my-pet-type'>泰迪犬</span>
+					<p class='my-pet-age'>3岁</p>
+				</div>
+			</a></li>
+			<li><a href="###">
+				<img src="../images/thumb.jpg" alt="" class='my-pet-thumb'>
+				<div class="about-pet">
+					<span class='my-pet-name'>Happy</span>
+					<span class='my-pet-male'></span>
+					<span class='my-pet-type'>萨摩</span>
+					<p class='my-pet-age'>1岁</p>
+				</div>
+			</a></li>
+		</ul>
+	</main>
+	<!-- E my-pet-list -->
+	<!--S footer-->
+	<footer id='footer'>
+		<a href="../forpet/xunchongzhuye.html" class='home'>
+			<span></span>
+			<p>寻宠</p>
+		</a>
+		<a href="###" class='community'>
+			<span></span>
+			<p>社区</p>
+		</a>
+		<a href="###" class='service'>
+			<span></span>
+			<p>服务</p>
+		</a>
+		<a href="###" class='message'>
+			<span></span>
+			<p>消息</p>
+		</a>
+		<a href="index.html" class='my'>
+			<span class='hover'></span>
+			<p>我的</p>
+		</a>
+	</footer>
+	<!--E footer-->
+</body>
+</html>

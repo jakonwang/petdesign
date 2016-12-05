@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>寻宠主页--ForPet</title>
+	<title>寻宠网--个人资料</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,height=device-height"/>
 	<meta name="format-detection" content="telephone=no">
@@ -28,45 +28,42 @@
         img.onload = null;
         callback(img);
     }
-    img.src = url; 
+    	img.src = url; 
 	}
     </script>
 	<!--normalize.css for reset stylesheet-->
-	<link rel="stylesheet" href="css/normalize.css">
-	<!--index.css-->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<!--common.css-->
+	<link rel="stylesheet" href="../css/common.css">
+	<!--my.css-->
+	<link rel="stylesheet" href="../css/my.css">
 </head>
-<body>
-	<!--S header-->
-	<header id='header'>寻宠</header>
-	<!--E header-->
-	<main id='clue-adopt-retrieve'>
-		<a href="wanderingClues.html" id="clue">
-			<img src="images/clueBg.png" alt="">
-			<div>
-				<h2>--流浪线索--</h2>
-				<h3>帮Ta找回家</h3>
-			</div>
-		</a>
-		<a href="###" id="adopt">
-			<img src="images/adoptBg.png" alt="">
-			<div>
-				<h2>--领养--</h2>
-				<h3>Ta需要一个家</h3>
-			</div>
-		</a>
-		<a href="###" id="retrieve">
-			<img src="images/retrieverBg.png" alt="">
-			<div>
-				<h2>--寻回--</h2>
-				<h3>帮我找回Ta</h3>
-			</div>
-		</a>
+<body id='my-setting'>
+	<!-- S header -->
+	<header id='header'>联系我们
+	<div id="return" onclick='javascript:history.back();'></div>
+	</header>
+	<!-- E header -->
+	<!-- S contact-us -->
+	<main id='contact-us'>
+		<ul>
+			<li>
+				<h2>联系电话</h2>
+				<p class='contact-time'>服务时间：周一至周日，10:00-19:00</p>
+				<p class='contact-tel'><a href="tel:400-000-0000">400-000-0000</a></p>
+			</li>
+			<li>
+				<h2>在线咨询</h2>
+				<p class='contact-time'>服务时间：周一至周日，10:00-19:00</p>
+				<p class='contact-tel'><a href="tel:400-000-0000">点击找客服</a></p>
+			</li>
+		</ul>
 	</main>
+	<!-- E contact-us -->
 	<!--S footer-->
 	<footer id='footer'>
-		<a href="xunchongzhuye.html" class='home'>
-			<span class='hover'></span>
+		<a href="../forpet/xunchongzhuye.html" class='home'>
+			<span></span>
 			<p>寻宠</p>
 		</a>
 		<a href="###" class='community'>
@@ -81,8 +78,8 @@
 			<span></span>
 			<p>消息</p>
 		</a>
-		<a href="###" class='my'>
-			<span></span>
+		<a href="index.html" class='my'>
+			<span class='hover'></span>
 			<p>我的</p>
 		</a>
 	</footer>

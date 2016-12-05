@@ -1,0 +1,111 @@
+/* start header */
+#header{
+	width:100%;
+	height:3.85rem;
+	line-height:3.85rem;
+	font-size:2.4rem;
+	text-align:center;
+	background:#2ecc71;
+	color:#FFF;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+}
+#header #return{
+	width:3.85rem;
+	height:3.85rem;
+	background:url(../images/public_img/return.png) no-repeat center center;
+	background-size:55%;
+	position:fixed;
+	top:0;
+	left:0.5rem;
+}
+#header #search{
+	width:3.85rem;
+	height:3.85rem;
+	background:url(../images/public_img/search.png) no-repeat center center;
+	background-size:55%;
+	position:fixed;
+	top:0;
+	right:0.5rem;
+}
+/* end header */
+/* start footer */
+#footer{
+	width:100%;
+	height:4.7rem;
+	background:#FFF;
+	border-top:1px solid #DDD;
+	position:fixed;
+	bottom:0;
+	left:0;
+	overflow:hidden;
+	z-index:9999;
+}
+#footer a{
+	width:20%;
+	height:4.7rem;
+	display:block;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+}
+#footer span{
+	width:2.5rem;
+	height:2.5rem;
+	display:block;
+	text-align:center;
+	margin:0.3rem auto 0;
+}
+#footer p{
+	color:#666;
+	font-size:1.2rem;
+	margin-top:0.5rem 0 0 0;
+	padding:0;
+	line-height:0;
+}
+#footer span.hover+p{
+	color:#2ecc71;
+}
+#footer .home span,#footer .community span,#footer .service span,#footer .message span,#footer .my span{
+	background:url(../images/public_img/xunchongIcon.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .home span.hover{
+	background:url(../images/public_img/xunchongIconHover.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .community span{
+	background:url(../images/public_img/communityIcon.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .community span.hover{
+	background:url(../images/public_img/communityIconHover.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .service span{
+	background:url(../images/public_img/serviceIcon.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .service span.hover{
+	background:url(../images/public_img/serviceIconHover.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .message span{
+	background:url(../images/public_img/messageIcon.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .message span.hover{
+	background:url(../images/public_img/messageIconHover.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .my span{
+	background:url(../images/public_img/myIcon.png) no-repeat center center;
+	background-size:2.5rem;
+}
+#footer .my span.hover{
+	background:url(../images/public_img/myIconHover.png) no-repeat center center;
+	background-size:2.5rem;
+}
+/* end footer */
