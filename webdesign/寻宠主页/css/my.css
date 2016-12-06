@@ -5,13 +5,13 @@
 /* Start head-portrait*/
 #head-portrait{
 	width:100%;
-	height:11.5rem;
+	height:12.5rem;
 	overflow:hidden;
 	position:relative;
 }
 #head-portrait .head-img-bg{
 	width:100%;
-	height:11.5rem;
+	height:12.5rem;
 	-webkit-filter:blur(1px); /* Chrome, Safari, Opera */
     filter:blur(1px);
 }
@@ -51,7 +51,7 @@
 	height:4.3rem;
 	line-height:4.3rem;
 	background:#FFF;
-	border-bottom:1px solid #ccc;
+	border-bottom:1px solid #eceef0;
 	text-indent:4.3rem;
 	font-size:1.5rem;
 	color:#000;
@@ -61,8 +61,8 @@
 	height:4.3rem;
 	display:block;
 	color:#000;
-	background:url(../images/my/enter_arrow.png) right 1.1rem center no-repeat;
-	background-size:1rem;
+	background:url(../images/my/enter_arrow.png) 98% center no-repeat;
+	background-size:0.7rem;
 }
 #my-content ul .personaldata{
 	background:#FFF url(../images/my/personal_data.png) no-repeat 1rem center;
@@ -108,7 +108,7 @@
 	width:100%;
 	height:5.3rem;
 	background:#FFF;
-	margin-bottom:2px;
+	border-bottom:1px solid #eceef0;
 	line-height:5.3rem;
 	font-size:1.6rem;
 	color:#000;
@@ -137,8 +137,8 @@
 	width:100%;
 	height:5.3rem;
 	color:#000;
-	background:url(../images/my/enter_arrow.png) no-repeat right 0.7rem center;
-	background-size:0.8rem;
+	background:url(../images/my/enter_arrow.png) no-repeat 98% center;
+	background-size:0.7rem;
 }
 #personal-data li>a>span{
 	float:right;
@@ -162,14 +162,14 @@ header #add-pet{
 	width:100%;
 	height:6.3rem;
 	background:#FFF;
-	margin-top:1px;
+	border-bottom:1px solid #eceef0;
 }
 #my-pet-list ul li>a{
 	width:100%;
 	height:6.3rem;
 	display:block;
-	background:url(../images/my/enter_arrow.png) no-repeat right 1rem center;
-	background-size:0.8rem;
+	background:url(../images/my/enter_arrow.png) no-repeat 98% center;
+	background-size:0.7rem;
 }
 #my-pet-list li .my-pet-thumb{
 	width:5.1rem;
@@ -257,3 +257,68 @@ header #add-pet{
 	text-decoration:underline;
 }
 /* End contact-us */
+/* Start my-collection */
+#my-collection{
+	margin-top:3.85rem;
+	margin-bottom:5rem;
+}
+#my-collection ul{
+
+}
+#my-collection ul li.my-collection-item{
+	box-sizing:border-box;
+	height:10.5rem;
+	overflow:hidden;
+	border-bottom:1px solid #eceef0;
+	background:#FFF;
+}
+#my-collection li.my-collection-item>a{
+	width:100%;
+	height:10.5rem;
+	display:block;
+	/*background:red;*/
+	padding:1.1rem;
+}
+#my-collection .my-collection-item>a .my-colletion-img{
+	width:7.4rem;
+	height:6.8rem;
+	float:left;
+}
+#my-collection .my-collection-item>a #my-colletion-desc{
+	width:65%;
+	height:6.8rem;
+	overflow:hidden;
+	padding-left:1em;
+	float:left;
+	line-height:1.6rem;
+}
+#my-collection .my-collection-item>a .my-colletion-title{
+	font-size:1.6rem;
+	color:#989898;
+	width:95%;
+	height:1.7rem;
+	line-height:1.7rem;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#my-collection .my-collection-item>a .my-colletion-desc{
+	height:3.3rem;
+	font-size:1.5rem;
+	color:#989898;
+	overflow:hidden;
+}
+#my-collection .my-collection-item .my-colletion-pubdate{
+	width:4rem;
+	height:1rem;
+	line-height:1rem;
+	text-align:center;
+	float:right;
+	margin-right:2rem;
+	margin-top:5px;
+	background:url(../images/my/mycollectiontime.png) no-repeat left center;
+	background-size:1rem 1rem;
+	padding-left:1.3rem;
+	font-size:1.2rem;
+}
+/* End my-collection */

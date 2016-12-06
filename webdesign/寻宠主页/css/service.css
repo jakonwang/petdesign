@@ -1,0 +1,525 @@
+@charset "utf-8";
+header #create-group{
+	width:5rem;
+	height:2.8rem;
+	position:absolute;
+	right:1rem;
+	top:0.4rem;
+	color:#FFF;
+	border-radius:5px;
+	z-index:2;
+	border:1px solid #FFF;
+	text-align:center;
+	font-size:1.6rem;
+	line-height:2.8rem;
+}
+#for-pet-service{
+	background:#f4f4f4;;;
+}
+/* Start service*/
+#service{
+	margin-top:3.85rem;
+	margin-bottom:5rem;
+}
+#service ul{
+	width:100%;
+	height:30.8rem;
+	overflow:hidden;
+	/*margin-top:7.6rem;*/
+}
+#service ul>li{
+	width:33.3%;
+	height:10.2rem;
+	box-sizing:border-box;
+	float:left;
+	overflow:hidden;
+	background:#FFF;
+	border-right:1px solid #eceef0;
+	border-bottom:1px solid #eceef0;
+}
+#service ul>li>a{
+	display:block;
+	width:100%;
+	height:10.2rem;
+	text-align:center;
+	position:relative;
+}
+#service ul>li>a>img{
+	width:auto;
+	height:4.5rem;
+	overflow:hidden;
+	margin-top:1.7rem;
+}
+#service ul>li>a p{
+	text-align:center;
+	font-size:1.2rem;
+	color:#666;
+}
+/* End service */
+/* Start expert-online */
+#expert-online{
+	margin-top:3.85rem;
+	margin-bottom:5rem;
+}
+#expert-online>#location{
+	height:2rem;
+	line-height:2rem;
+	background:#FFF url(../images/service/expertlocation.png) no-repeat 1.2rem center;
+	background-size:1rem;
+	padding-left:3rem;
+	font-size:1.2rem;
+	color:#666;
+	border-bottom:1px solid #eceef0;
+}
+#expert-online .expert-contact{
+	width:100%;
+	height:10.4rem;
+	overflow:hidden;
+	border-bottom:1px solid #eceef0;
+	background:#FFF;
+}
+#expert-online .expert-contact li{
+	width:33.3%;
+	height:10.4rem;
+	float:left;
+	text-align:center;
+}
+.expert-contact li a{
+	box-sizing:border-box;
+	width:100%;
+	height:10.4rem;
+	display:block;
+	padding-top:1.6rem;
+}
+.expert-contact li a img{
+	width:4.5rem;
+	height:4.5rem;
+}
+.expert-contact li a p{
+	font-size:1.5rem;
+	color:#676767;
+}
+#expert-online .experts-list{
+
+}
+#expert-online .experts-list .experts-list-title{
+	width:100%;
+	height:2.6rem;
+	border-bottom:1px solid #eceef0;
+	background:#FFF;
+	line-height:2.6rem;
+	text-indent:1.5rem;
+	font-size:1.5rem;
+}
+.experts-list .experts-list-title a{
+	display:block;
+	background:url(../images/service/enter_arrow.png) no-repeat 97% center;
+	background-size:0.7rem;
+}
+.experts-list .experts-list-desc{
+	margin:0;
+	padding:0;
+	width:100%;
+	background:#FFF;
+	border-bottom:1px solid #eceef0;
+	height:9.65rem;
+	overflow:hidden;
+}
+.experts-list-desc .experts-wrap{
+	width:6.05rem;
+	float:left;
+	height:100%;
+	overflow:hidden;
+	padding:1.6rem;
+}
+.experts-list-desc .experts-thumb{
+	width:6.05rem;
+	height:6.05rem;
+	border-radius:6.05rem;
+	float:left;
+}
+.experts-list-desc .experts-message{
+	float:left;
+	text-indent:2rem;
+	height:1.5rem;
+	line-height:1.5rem;
+	padding:1rem 0;
+}
+.experts-list-desc .experts-message p{
+	margin:0.4rem 0;
+	padding:0;
+	font-size:1.3rem;
+	color:#818189;
+}
+.experts-list-desc .experts-male{
+	background:url(../images/service/expertmale.png) no-repeat left center;
+	background-size:1.5rem;
+}
+.experts-list-desc .experts-female{
+	background:url(../images/service/expertfemale.png) no-repeat 0.2rem center;
+	background-size:1.1rem;
+}
+.experts-list-desc .experts-experience{
+	background:url(../images/service/expertexperience.png) no-repeat left center;
+	background-size:1.5rem;
+}
+.experts-list-desc .experts-illness{
+	background:url(../images/service/disease.png) no-repeat left center;
+	background-size:1.5rem;
+}
+.experts-list-desc .experts-workplace{
+	background:url(../images/service/workplace.png) no-repeat left center;
+	background-size:1.5rem;
+}
+/* End expert-online */
+/* Start encyclopedia */
+#encyclopedia{
+	margin-top:3.85rem;
+	margin-bottom:5rem;
+}
+#encyclopedia ul{
+
+}
+#encyclopedia ul li.encyclopedia-item{
+	box-sizing:border-box;
+	height:10.5rem;
+	overflow:hidden;
+	border-bottom:1px solid #eceef0;
+	background:#FFF;
+	position:relative;
+}
+#encyclopedia li.encyclopedia-item>a{
+	display:block;
+	padding:1.1rem 0rem 1.1rem 0.5rem;
+	width:7.4rem;
+	height:10.5rem;
+	float:left;
+}
+#encyclopedia .encyclopedia-item .encyclopedia-img{
+	width:7.4rem;
+	height:6.8rem;
+	float:left;
+}
+#encyclopedia .encyclopedia-item #encyclopedia-desc{
+	width:55%;
+	height:6.8rem;
+	overflow:hidden;
+	padding-left:1rem;
+	padding-top:1.5rem;
+	float:left;
+	line-height:1.6rem;
+}
+#encyclopedia .encyclopedia-item .encyclopedia-title{
+	font-size:1.6rem;
+	color:#989898;
+	width:95%;
+	height:1.8rem;
+	line-height:1.8rem;
+	padding:0;
+	margin:0;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#encyclopedia .encyclopedia-item .encyclopedia-desc{
+	height:3.3rem;
+	font-size:1.5rem;
+	color:#989898;
+	overflow:hidden;
+}
+#encyclopedia .encyclopedia-item .encyclopedia-extra{
+	float:right;
+	line-height:1rem;
+	height:1rem;
+	margin-top:5px;
+	font-size:1.2rem;
+	text-align:center;
+	color:#989898;
+}
+#encyclopedia .encyclopedia-item .encyclopedia-view{
+	background:url(../images/service/views.png) no-repeat left center;
+	background-size:auto 1rem;
+	padding-left:1.5rem;
+	float:left;
+	height:1rem;
+	margin-right:2rem;
+}
+#encyclopedia .encyclopedia-item .encyclopedia-pubdate{
+	height:1rem;
+	margin-right:2rem;
+	background:url(../images/service/encyclopediatime.png) no-repeat left center;
+	background-size:auto 1.1rem;
+	padding-left:1.3rem;	
+}
+#encyclopedia .encyclopedia-item #collect{
+	position:absolute;
+	right:0.7rem;
+	top:0.7rem;
+	width:2.2rem;
+	height:2.2rem;
+}
+#encyclopedia .encyclopedia-item .no-collected{
+	background:url(../images/service/nocollected.png) no-repeat center center;
+	background-size:2.2rem auto;
+}
+#encyclopedia .encyclopedia-item .collected{
+	background:url(../images/service/collected.png) no-repeat center center;
+	background-size:2.2rem auto;
+}
+/* End encyclopedia */
+/* Start love-fund */
+#love-fund{
+	margin-top:3.85rem;
+	margin-bottom:5rem;
+	width:100%;
+}
+#love-fund ul li{
+	width:100%;
+	height:9.3rem;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-bottom:1px solid #eceef0;
+	background:#FFF;
+	padding:0.5rem 1rem;
+}
+#love-fund ul li h2{
+	height:4.2rem;
+	overflow:hidden;
+	line-height:4.2rem;
+	font-size:1.7rem;
+	color:#666;
+	text-indent:1.2rem;
+}
+#love-fund  li h2 img{
+	width:4.2rem;
+	height:4.2rem;
+	border-radius:4.2rem;
+	float:left;
+}
+#love-fund  li p{
+	color:#AAA;
+	height:3.7rem;
+	line-height:1.8rem;
+	overflow:hidden;
+	font-size:1.4rem;
+	margin-top:0.2rem;
+	/*background:red;*/
+}
+/* End love-fund */
+/* Start pet-pair */
+#pet-pair{
+	margin-top:3.85rem;
+	margin-bottom:5rem;
+	width:100%;
+}
+#pet-pair #nowlocation{
+	height:4.7rem;
+	background:#FFF;
+	border-bottom:1px solid #eceef0;
+	line-height:4.7rem;
+	font-size:1.6rem;
+	color:#676767;
+	text-indent:1.6rem;
+}
+#pet-pair #nowlocation a{
+	float:right;
+	width:4.7rem;
+	height:4.7rem;
+	font-size:1.5rem;
+	margin-right:1rem;
+	text-indent:0.8rem;
+	background:url(../images/service/enter_arrow.png) right center no-repeat;
+	background-size:0.7rem;
+	color:#a2a2a2;
+}
+#pet-pair ul li{
+	width:100%;
+	background:#FFF;
+	height:8.9rem;
+	box-sizing:border-box;
+	border-bottom:1px solid #eceef0;
+	overflow:hidden;
+	padding:1.2rem 0;
+}
+#pet-pair .pet-pair-img{
+	width:25%;
+	height:100%;
+	float:left;
+	text-align:center;
+}
+#pet-pair .pet-pair-img img{
+	width:5rem;
+	height:5rem;
+	border-radius:5rem;
+}
+#pet-pair .pet-pair-desc{
+	width:55%;
+	height:100%;
+	float:left;
+}
+#pet-pair .pet-pair-desc p{
+	margin:0;
+	padding:0;
+}
+#pet-pair .pet-pair-desc p:nth-child(1){
+	font-size:1.6rem;
+	color:#000;
+}
+.pet-pair-desc p:nth-child(1) span{
+	font-size:0;
+	display:block;
+	float:left;
+	width:1.6rem;
+	height:1.6rem;
+	margin-right:0.5rem;
+}
+.pet-pair-desc p:nth-child(1) span.male{
+	background:url(../images/service/male.png) no-repeat left center;
+	background-size:1.6rem;
+}
+.pet-pair-desc p:nth-child(1) span.female{
+	background:url(../images/service/female.png) no-repeat left center;
+	background-size:1.6rem;
+}
+.pet-pair-desc p:nth-child(2){
+	clear:left;
+	margin-top:0.5rem!important;
+}
+.pet-pair-desc p:nth-child(2) .pet-type{
+	font-size:1.3rem;
+	border:1px solid #2ecc71;
+	padding:3px;
+	border-radius:5px;
+	margin-right:2rem;
+	color:#2ecc71;
+}
+.pet-pair-desc p:nth-child(2) .pet-age{
+	color:#a2a2a2;
+	font-size:1.3rem;
+	padding:3px;
+}
+.pet-pair-desc p:nth-child(3){
+	clear:left;
+	margin-top:1rem!important;
+	font-size:1.5rem;
+	color:#a2a2a2;
+	height:1.6rem;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#pet-pair .pet-pair-distance{
+	width:20%;
+	height:100%;
+	float:right;
+	text-align:center;
+}
+#pet-pair .pet-pair-distance p{
+	margin:0;
+	padding:0;
+	color:#a2a2a2;
+	font-size:1.3rem;
+}
+#pet-pair .pet-pair-distance .pet-pair-pubdate{
+	margin-bottom:3.8rem;
+}
+/* End pet-pair */
+/* Start walk-dog */
+#walk-dog{
+	margin-top:3.85rem;
+	margin-bottom:5rem;
+}
+#walk-dog #walk-dog-place{
+	width:100%;
+	height:3.7rem;
+	line-height:3.7rem;
+	font-size:1.6rem;
+	color:#AAA;
+	background:#FFF url(../images/service/expertlocation.png) no-repeat 1.7rem center;
+	background-size:1.2rem;
+	text-indent:4rem;
+}
+#walk-dog #walk-dog-place a{
+	display:block;
+	width:100%;
+	height:3.7rem;
+	background:url(../images/service/enter_arrow.png) 98% center no-repeat;
+	background-size:0.7rem;
+}
+#walk-dog ul li{
+	width:100%;
+	height:8.9rem;
+	background:#FFF;
+	overflow:hidden;
+	border-bottom:1px solid #eceef0;
+	box-sizing:border-box;
+	padding:1rem;
+}
+#walk-dog li .walk-dog-thumb{
+	width:20%;
+	float:left;
+	height:100%;
+	/*background:yellow;*/
+}
+#walk-dog li .walk-dog-thumb img{
+	width:5rem;
+	height:5rem;
+	border-radius:5rem;
+	margin-top:1rem;
+}
+.walk-dog-desc{
+	width:56%;
+	float:left;
+	height:100%;
+	margin-left:5px;
+	/*background:green;*/
+}
+.walk-dog-desc h2,.walk-dog-desc p{
+	margin:0;
+	padding:0;
+}
+.walk-dog-desc h2.walk-dog-name{
+	font-size:1.6rem;
+	color:#666;
+	height:2rem;
+	line-height:2rem;
+	background:url(../images/service/walkdoggroup.png) no-repeat left center;
+	background-size:4rem;
+	text-indent:4.5rem;
+}
+.walk-dog-desc .walk-dog-place{
+	font-size:1.4rem;
+	background:url(../images/service/expertlocation.png) left center no-repeat;
+	background-size:1rem;
+	text-indent:2rem;
+	margin-top:8px;
+	color:#AAA;
+}
+.walk-dog-desc .walk-dog-time{
+	font-size:1.4rem;
+	background:url(../images/service/encyclopediatime.png) left center no-repeat;
+	background-size:1.2rem;
+	text-indent:2rem;
+	margin-top:8px;
+	color:#AAA;
+}
+#walk-dog-add{
+	width:20%;
+	height:100%;
+	float:left;
+	/*background:red;*/
+}
+#walk-dog-add .walk-dog-add{
+	width:4.3rem;
+	height:2.6rem;
+	font-size:1.5rem;
+	border-radius:5px;
+	display:block;
+	margin-top:2rem;
+	text-align:center;
+	line-height:2.6rem;
+	color:#2ecc71;
+	border:1px solid #2ecc71;
+	float:right;
+}
+/* End walk-dog */

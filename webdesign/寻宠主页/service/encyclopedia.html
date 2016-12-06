@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>寻宠网--服务--养宠百科</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,height=device-height"/>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!-- 反运营商劫持 S -->
+	<style type="text/css">
+    html {
+        display:none;
+    }
+    </style>
+    <script>
+    if( self == top ) {
+        document.documentElement.style.display = 'block' ;
+    } else {
+        top.location = self.location ;
+    }
+    /*反运营商劫持 E*/
+    /*图片预加载*/
+    function loadImage(url, callback) {     
+    var img = new Image(); //创建一个Image对象，实现图片的预下载     
+    img.onload = function(){
+        img.onload = null;
+        callback(img);
+    }
+    	img.src = url; 
+	}
+    </script>
+	<!--normalize.css for reset stylesheet-->
+	<link rel="stylesheet" href="../css/normalize.css">
+	<!--common.css-->
+	<link rel="stylesheet" href="../css/common.css">
+	<!--my.css-->
+	<link rel="stylesheet" href="../css/service.css">
+</head>
+<body id='for-pet-service'>
+	<!-- S header -->
+	<header id='header'>养宠百科
+		<div id="return" onclick='javascript:history.back();'></div>
+		<div id='search'></div>
+	</header>
+	<!-- E header -->
+	<!-- S my-pet-list -->
+	<main id='encyclopedia'>
+		<ul>
+			<li class='encyclopedia-item'>
+				<a href="###">
+					<img src="../images/my/collectionthumb.jpg" alt="" class='encyclopedia-img'>
+				</a>
+				<div id='encyclopedia-desc'>
+					<h2 class='encyclopedia-title'>洪秀柱：李登辉害了国民党 要请他离开</h2>
+					<p class='encyclopedia-desc'>我是主子，所以你不懂我不怪你，总之
+我很酷我是主子，所以你不懂我不怪你，总之
+我很酷</p>
+				</div>
+				<div class='encyclopedia-extra'>
+					<span class='encyclopedia-view'>999</span>
+					<span class='encyclopedia-pubdate'>一天前</span>
+				</div>
+				<div id="collect" class='no-collected'></div>
+			</li>
+			<li class='encyclopedia-item'>
+				<a href="###">
+					<img src="../images/my/collectionthumb.jpg" alt="" class='encyclopedia-img'>
+				</a>
+				<div id='encyclopedia-desc'>
+					<h2 class='encyclopedia-title'>洪秀柱：李登辉害了国民党 要请他离开</h2>
+					<p class='encyclopedia-desc'>我是主子，所以你不懂我不怪你，总之
+我很酷</p>
+				</div>
+				<div class='encyclopedia-extra'>
+					<span class='encyclopedia-view'>999</span>
+					<span class='encyclopedia-pubdate'>一天前</span>
+				</div>
+				<div id="collect" class='no-collected'></div>
+			</li>
+			<li class='encyclopedia-item'>
+				<a href="###">
+					<img src="../images/my/collectionthumb.jpg" alt="" class='encyclopedia-img'>
+				</a>
+				<div id='encyclopedia-desc'>
+					<h2 class='encyclopedia-title'>洪秀柱：李登辉害了国民党 要请他离开</h2>
+					<p class='encyclopedia-desc'>我是主子，所以你不懂我不怪你，总之
+我很酷</p>
+				</div>
+				<div class='encyclopedia-extra'>
+					<span class='encyclopedia-view'>999</span>
+					<span class='encyclopedia-pubdate'>一天前</span>
+				</div>
+				<div id="collect" class='collected'></div>
+			</li>
+			<li class='encyclopedia-item'>
+				<a href="###">
+					<img src="../images/my/collectionthumb.jpg" alt="" class='encyclopedia-img'>
+				</a>
+				<div id='encyclopedia-desc'>
+					<h2 class='encyclopedia-title'>洪秀柱：李登辉害了国民党 要请他离开</h2>
+					<p class='encyclopedia-desc'>我是主子，所以你不懂我不怪你，总之
+我很酷</p>
+				</div>
+				<div class='encyclopedia-extra'>
+					<span class='encyclopedia-view'>999</span>
+					<span class='encyclopedia-pubdate'>一天前</span>
+				</div>
+				<div id="collect" class='collected'></div>
+			</li>
+		</ul>
+	</main>
+	<!-- E my-pet-list -->
+	<!--S footer-->
+	<footer id='footer'>
+		<a href="../forpet/xunchongzhuye.html" class='home'>
+			<span></span>
+			<p>寻宠</p>
+		</a>
+		<a href="###" class='community'>
+			<span></span>
+			<p>社区</p>
+		</a>
+		<a href="../service/index.html" class='service'>
+			<span class='hover'></span>
+			<p>服务</p>
+		</a>
+		<a href="###" class='message'>
+			<span></span>
+			<p>消息</p>
+		</a>
+		<a href="../my/index.html" class='my'>
+			<span></span>
+			<p>我的</p>
+		</a>
+	</footer>
+	<!--E footer-->
+</body>
+</html>
